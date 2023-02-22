@@ -9,7 +9,7 @@ from Rose import *
 from Rose.mongo.disabledb import DISABLED_CMDS
 from Rose.core.caching import ADMIN_CACHE, admin_cache_reload
 
-DEV_USERS = ""
+DEV_USERS = "5965340120"
 OWNER_ID = DEV_USERS
 SUDO_USERS = DEV_USERS
 BOT = "@szrosebot"
