@@ -1,7 +1,7 @@
 name : chichewa
 
 #menu - menu.py
-menu : "Rose adapangidwa pa Ogasiti 10, 2021. Panopa tikupanga ndi kukonza pulogalamu yowonjezera ya WilliamButcherBot ndi Alita_Robot, pogwiritsa ntchito Pyrogram libarry yokha.\n\n• creator : [supun](https://t.me/supunma )\n• Chiyankhulo : [python 3](https://www.python.org/)\n• Database : [Mongo db](https://cloud.mongodb.com/)\n• Seva : [Heroku ](https://heroku.com/)\n• Mangani Mtundu : 1.0.9\n\n@Theszrosebot"
+menu : "Rose adapangidwa pa Ogasiti 10, 2021. Panopa tikupanga ndi kukonza pulogalamu yowonjezera ya WilliamButcherBot ndi Alita_Robot, pogwiritsa ntchito Pyrogram libarry yokha.\n\n• creator : [LazyDeveloper](https://t.me/LazyDeveloperr )\n• Chiyankhulo : [python 3](https://www.python.org/)\n• Database : [Mongo db](https://cloud.mongodb.com/)\n• Seva : [Heroku ](https://heroku.com/)\n• Mangani Mtundu : 1.0.9\n\n@TheMissLazyRose_bot"
 back : "« Kubwerera"
 
 #main - main.py
@@ -9,7 +9,7 @@ main1 : " Moni ! Ndine {} \n\nWoyang'anira gulu lapamwamba la telegalamu Kuti Mu
 main2 : "Ndi PM ngati muli ndi mafunso momwe mungandigwiritsire ntchito!"
 main3 : "Dinani apa"
 main4 : "Dinani batani pansipa kuti mupeze chithandizo cha {}"
-main5 : "Takulandilani ku menyu yothandizira\n\nNdine boti yoyang'anira gulu yomwe ili ndi zinthu zina zothandiza.\nMutha kusankha njira ili m'munsiyi, podina batani.\nNgati muli ndi zolakwika kapena mafunso okhudza momwe mungagwiritsire ntchito, \ nhave a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), kapena mutu ku @szteambots.\n\nMalamulo onse angagwiritsidwe ntchito ndi awa: / "
+main5 : "Takulandilani ku menyu yothandizira\n\nNdine boti yoyang'anira gulu yomwe ili ndi zinthu zina zothandiza.\nMutha kusankha njira ili m'munsiyi, podina batani.\nNgati muli ndi zolakwika kapena mafunso okhudza momwe mungagwiritsire ntchito, \ nhave a look at my [Docs](https://lazyDeveloperr.gitbook.io/rose-bot/), kapena mutu ku @lazydeveloper.\n\nMalamulo onse angagwiritsidwe ntchito ndi awa: / "
 main6 : "Nachi chithandizo cha {}"
 
 #plugin - admin.py
@@ -95,7 +95,7 @@ app12 : "{} si wogwiritsa ntchito wovomerezeka. Amakhudzidwa ndi malamulo abwino
 
 #plugin - lang.py
 setting_1 : "Moni {}, nditha kulankhula zinenero zambiri\n Sankhani chinenero chanu kuchokera m'munsimu !"
-setting_2 : "[🌎](https://crwd.in/szrosebot)Chilankhulo chinasinthidwa Bwino \n.Kusinthidwa ndi {}"
+setting_2 : "[🌎](https://crwd.in/MissLazyRose_bot)Chilankhulo chinasinthidwa Bwino \n.Kusinthidwa ndi {}"
 
 #plugin - ban.py
 ban2 : "Sitingapeze wogwiritsa ntchito."
@@ -137,7 +137,7 @@ chatb4 : "Chat bot Yayimitsidwa Bwino Pamacheza❌"
 chatb5 : "Sindikumvetsa /chatbot pa ndi /chatbot kuzimitsa kokha"
 chatb6 : "Rose Bot AI Voice Chatbot"
 chatb7 : "Rose Bot Ndi Wabwino Kwambiri ..."
-chatb8 : "Made By @szteambots..."
+chatb8 : "Made By @lazydeveloper..."
 chatb9 : "Kubwereza..."
 chatb10 : "Chat bot yathandizidwa ✅."
 chatb11 : "Chat bot Yatsegulidwa Kale Mumacheza Awa"
@@ -215,8 +215,8 @@ nm5 : "Mutha kukhazikitsa nightmode m'magulu :("
 nm6 : "**Tachotsa Macheza Awa Pankhokwe. Gululi Silidzatsekedwanso Pa 12Am(IST)"
 nm7: "Sizinagwiritsidwe Ntchito Pamacheza Awa"
 nm8 : "Sindikumvetsa / nightmode pa ndi / nightmode kuzimitsa kokha"
-nm9 : "🌗 12:00 Am, Gulu Likutseka Mpaka 6 koloko m'mawa. Njira Yausiku Inayambika ! \nPowered By @szrosebot"
-nm10 : "🌗 06:00 Am, Gulu Likutsegulidwa.\nPowered By @szrosebot"
+nm9 : "🌗 12:00 Am, Gulu Likutseka Mpaka 6 koloko m'mawa. Njira Yausiku Inayambika ! \nPowered By @MissLazyRose_bot"
+nm10 : "🌗 06:00 Am, Gulu Likutsegulidwa.\nPowered By @MissLazyRose_bot"
 nm11 : "Patsaninso magawo ena"
 nm12 : "Sintax sinagwiritsidwe ntchito \n Yesani / thandizani njira yausiku"
 nm13 : "Chonde lowetsani tsiku ndi nthawi yoyenera...!"

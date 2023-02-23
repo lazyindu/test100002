@@ -2,7 +2,7 @@ name : Italiano
 
 
 #menu - menu.py
-menu : "Rose è stata creata il **10 agosto 2021**. Attualmente stiamo sviluppando e mantenendo i plugin **WilliamButcherBot** e **Alita_Robot**, utilizzando solo la libreria **Pyrogram**.\n\n • **creatore** : [supun](https://t.me/supunma)\n• **Lingua** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Versione build ** : `2.0`\n\n @Theszrosebot "
+menu : "Rose è stata creata il **10 agosto 2021**. Attualmente stiamo sviluppando e mantenendo i plugin **WilliamButcherBot** e **Alita_Robot**, utilizzando solo la libreria **Pyrogram**.\n\n • **creatore** : [LazyDeveloper](https://t.me/LazyDeveloperr)\n• **Lingua** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Versione build ** : `2.0`\n\n @TheMissLazyRose_bot "
 back : "« Indietro"
 
 #main - main.py
@@ -10,7 +10,7 @@ main1 : "Ciao! Sono {} \n\nUn bot avanzato per la gestione dei gruppi di Telegra
 main2 : "**PM me se hai domande su come usarmi!**"
 main3 : "Clicca qui"
 main4 : "Fai clic sul pulsante in basso per ottenere assistenza su {}"
-main5 : "**Benvenuto nel menu di aiuto**\n\nSono un bot per la gestione di gruppi con alcune utili funzioni.\nPuoi scegliere un'opzione di seguito, facendo clic su un pulsante.\nSe hai bug o domande su come usami, \ndai un'occhiata ai miei [Documenti](https://szsupunma.gitbook.io/rose-bot/), o vai su @szteambots.\n\n**Tutti i comandi possono essere usati con quanto segue: / **"
+main5 : "**Benvenuto nel menu di aiuto**\n\nSono un bot per la gestione di gruppi con alcune utili funzioni.\nPuoi scegliere un'opzione di seguito, facendo clic su un pulsante.\nSe hai bug o domande su come usami, \ndai un'occhiata ai miei [Documenti](https://lazyDeveloperr.gitbook.io/rose-bot/), o vai su @lazydeveloper.\n\n**Tutti i comandi possono essere usati con quanto segue: / **"
 main6 : "Ecco l'aiuto per **{}**"
 
 #plugin - admin.py
@@ -96,7 +96,7 @@ app12 : "{} non è un utente approvato. Sono interessati dai normali comandi."
 
 #plugin - lang.py
 setting_1 : "Ciao {}, so parlare molte lingue\n Seleziona la tua lingua da qui sotto!"
-setting_2 : "[🌎](https://crwd.in/szrosebot)La lingua è stata modificata con successo \n.Cambiata da {}"
+setting_2 : "[🌎](https://crwd.in/MissLazyRose_bot)La lingua è stata modificata con successo \n.Cambiata da {}"
 
 
 #plugin - ban.py
@@ -139,7 +139,7 @@ chatb4 : "**Chat bot disattivato con successo nella chat**❌"
 chatb5 : "Capisco solo `/chatbot on` e `/chatbot off`"
 chatb6 : "Chatbot vocale AI Rose Bot"
 chatb7 : "Rose Bot è il migliore..."
-chatb8 : "Realizzato da @szteambots..."
+chatb8 : "Realizzato da @lazydeveloper..."
 chatb9 : "Ripetizione..."
 chatb10 : "**Chat bot abilitato** ✅."
 chatb11 : "**Chat bot già attivato in questa chat**"
@@ -218,8 +218,8 @@ nm5 : "**Puoi impostare la modalità notturna solo in gruppi :(**"
 nm6 : "** Questa chat è stata rimossa dal database. Questo gruppo non sarà più chiuso alle 12:00 (IST)"
 nm7 : "**Non attivato in questa chat**"
 nm8 : "Capisco solo `/nightmode on` e `/nightmode off`"
-nm9 : "🌗 00:00, il gruppo chiude fino alle 6:00. Modalità notturna iniziata! \n**Fornito da @szrosebot**"
-nm10 : "🌗 06:00, il gruppo sta aprendo.\n**Fornito da @szrosebot**"
+nm9 : "🌗 00:00, il gruppo chiude fino alle 6:00. Modalità notturna iniziata! \n**Fornito da @MissLazyRose_bot**"
+nm10 : "🌗 06:00, il gruppo sta aprendo.\n**Fornito da @MissLazyRose_bot**"
 nm11 : "Dai anche altri parametri"
 nm12 : "Sintassi non valida \n Prova `/help nightmode`"
 nm13 : "Inserisci data e ora valide...!"
