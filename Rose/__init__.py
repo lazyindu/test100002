@@ -28,7 +28,7 @@ OWNER_ID = Config.OWNER_ID
 
 
 myclient = pymongo.MongoClient(DB_URI)
-dbn = myclient["supun"]
+dbn = myclient["LazyDeveloper"]
 
 mongo_client = AsyncIOMotorClient(MONGO_URL)
 db = mongo_client.wbb
@@ -39,7 +39,7 @@ aiohttpsession = ClientSession()
 arq = ARQ(Config.ARQ_API_URL,Config.ARQ_API_KEY, aiohttpsession)
 
 bot = Client(
-    "supun",
+    "LazyDeveloper",
     bot_token=Config.BOT_TOKEN, 
     api_id=Config.API_ID,
     api_hash=Config.API_HASH)

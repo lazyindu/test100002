@@ -2,7 +2,7 @@ from Rose import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
-supunma = """
+LazyDeveloperr = """
 
 **Basic Locktypes available for a chat: **
 
@@ -45,7 +45,7 @@ Rose will delete user's message if locked content is sent
 @app.on_callback_query(filters.regex("_ucd"))
 async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.edit(
-        text=supunma,
+        text=LazyDeveloperr,
         reply_markup=asuttons,
         disable_web_page_preview=True,
     )
@@ -73,7 +73,7 @@ asuttons = InlineKeyboardMarkup(
         ]]
 )
 
-supunm = """
+LazyDeveloperm = """
 **Permissions Locks Available for a chat:**
 
 send_messages
@@ -93,13 +93,13 @@ all_permissions
 @app.on_callback_query(filters.regex("_kcd"))
 async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.edit(
-        text=supunm,
+        text=LazyDeveloperm,
         reply_markup=asuttons,
         disable_web_page_preview=True,
     )
 
 
-supunmas = """
+LazyDeveloperrs = """
 **Examples:**
 
 - Lock stickers with:
@@ -112,7 +112,7 @@ supunmas = """
 @app.on_callback_query(filters.regex("_lcd"))
 async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.edit(
-        text=supunmas,
+        text=LazyDeveloperrs,
         reply_markup=asuttons,
         disable_web_page_preview=True,
     )

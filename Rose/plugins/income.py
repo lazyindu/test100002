@@ -35,9 +35,9 @@ async def audiolock(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Audio","Audio"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Audio","Audio"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -60,9 +60,9 @@ async def videolock(client, message):
         if message.from_user.id == int(c):
             return           
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Video","Video"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Video","Video"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -87,9 +87,9 @@ async def doclock(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Document","Document"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Document","Document"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -115,41 +115,41 @@ async def emaeil(client, message):
     texct = message.text
     if "@gmail.com" in texct:
         try:
-            supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
+            LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
             await asyncio.sleep(5)
-            await supun.delete()
+            await LazyDeveloper.delete()
             await message.delete()
         except:
             message.continue_propagation()      
     if "@outlook.com" in texct:
         try:
-            supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
+            LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
             await asyncio.sleep(5)
-            await supun.delete()
+            await LazyDeveloper.delete()
             await message.delete()
         except:
             message.continue_propagation()  
     if "@hotmail.com" in texct:
         try:
-            supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
+            LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
             await asyncio.sleep(5)
-            await supun.delete()
+            await LazyDeveloper.delete()
             await message.delete()
         except:
             message.continue_propagation()  
     if "@edumail.com" in texct:
         try:
-            supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
+            LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
             await asyncio.sleep(5)
-            await supun.delete()
+            await LazyDeveloper.delete()
             await message.delete()
         except:
             message.continue_propagation()
     if "mail.com" in texct:
         try:
-            supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
+            LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Email","Email"))
             await asyncio.sleep(5)
-            await supun.delete()
+            await LazyDeveloper.delete()
             await message.delete()
         except:
             message.continue_propagation()
@@ -174,9 +174,9 @@ async def fwd(client, message):
         if message.from_user.id == int(c):
             return          
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Forward","Forward"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Forward","Forward"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -200,9 +200,9 @@ async def slock(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"sticker","Sticker"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"sticker","Sticker"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -226,9 +226,9 @@ async def aalock(client, message):
         if message.from_user.id == int(c):
             return           
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Gif","Gif"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Gif","Gif"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -252,9 +252,9 @@ async def aggalock(client, message):
         if message.from_user.id == int(c):
             return             
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Game","Game"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Game","Game"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -278,9 +278,9 @@ async def alggsjalock(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Game","Game"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Game","Game"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except Exception as e:
         print(e)
@@ -305,9 +305,9 @@ async def alggalgossck(client, message):
         if message.from_user.id == int(c):
             return             
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Voice","Voice"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Voice","Voice"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()     
@@ -331,9 +331,9 @@ async def alggalock(client, message):
         if message.from_user.id == int(c):
             return           
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Video_note","Video_note"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Video_note","Video_note"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()                                 
@@ -357,9 +357,9 @@ async def alggalololck(client, message):
         if message.from_user.id == int(c):
             return        
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Contact","Contact"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Contact","Contact"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()             
@@ -383,9 +383,9 @@ async def alggalololck(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Location","Location"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Location","Location"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation() 
@@ -409,9 +409,9 @@ async def alggalololck(client, message):
         if message.from_user.id == int(c):
             return            
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Venue","Venue"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Venue","Venue"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()     
@@ -435,9 +435,9 @@ async def reply(client, message):
         if message.from_user.id == int(c):
             return          
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Reply","Reply"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Reply","Reply"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()                                                                                                                                    
@@ -461,9 +461,9 @@ async def messages(client, message):
         if message.from_user.id == int(c):
             return    
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Message","Message"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Message","Message"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()        
@@ -491,9 +491,9 @@ async def mnsn(client, message):
         if message.from_user.id == int(c):
             return    
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Mention","Mention"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Mention","Mention"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()    
@@ -518,9 +518,9 @@ async def inln(client, message):
         if message.from_user.id == int(c):
             return        
     try:
-        supun = await app.send_message(chat_id = message.chat.id, text = del_message.format(message.from_user.mention,"Inline","Inline"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id, text = del_message.format(message.from_user.mention,"Inline","Inline"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()       
@@ -544,9 +544,9 @@ async def poll(client, message):
         if message.from_user.id == int(c):
             return        
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Poll","Poll"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Poll","Poll"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()               
@@ -570,9 +570,9 @@ async def diced(client, message):
         if message.from_user.id == int(c):
             return        
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Dice","Dice"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Dice","Dice"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()             
@@ -597,9 +597,9 @@ async def button(client, message):
         if message.from_user.id == int(c):
             return 
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Inline_keyboard","Inline_keyboard"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Inline_keyboard","Inline_keyboard"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -623,9 +623,9 @@ async def mediwa(client, message):
         if message.from_user.id == int(c):
             return          
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Photo","Photo"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Photo","Photo"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()     
@@ -649,9 +649,9 @@ async def mediwa(client, message):
         if message.from_user.id == int(c):
             return          
     try:
-        supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Media","Media"))
+        LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Media","Media"))
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await message.delete()
     except:
         message.continue_propagation()
@@ -674,9 +674,9 @@ async def urls(client, message):
             return  
         try:
          await message.delete()
-         supun = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Url","Url"))
+         LazyDeveloper = await app.send_message(chat_id = message.chat.id,text = del_message.format(message.from_user.mention,"Url","Url"))
          await asyncio.sleep(5)
-         await supun.delete()
+         await LazyDeveloper.delete()
         except:
              message.continue_propagation()
     else:

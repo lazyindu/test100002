@@ -17,4 +17,4 @@ Rose was created on August 10, 2021. We are currently developing and maintaining
 
 - Independent: Rose is Maintained by Me, No gbans, No sudo powers. All power belongs to you.
 
-A ready-to-use running instance of this Rose Bot can be found on Telegram as @szrosebot
+A ready-to-use running instance of this Rose Bot can be found on Telegram as @MissLazyRose_bot

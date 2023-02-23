@@ -17,7 +17,7 @@ CBOT = get_command("CBOT")
 CBOTA = get_command("CBOTA")
 
 
-@app.on_message(filters.command("chatbot") & ~filters.private& admin_filter)
+@app.on_message(filters.command("chatbot") & ~filters.private & admin_filter)
 @language
 async def cbots(client, message: Message, _):
     group_id = str(message.chat.id)
@@ -59,12 +59,12 @@ async def szcbot(_, message: Message):
            lang = tr.translate(message.text).src
            trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
            text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
-           affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=Rose&ownername=@supunma&user={chat_id}")
+           affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=Rose&ownername=@LazyDeveloperr&user={chat_id}")
            textmsg = (affiliateplus.json()["message"])
            if "Affiliate+" in textmsg:
                textmsg = textmsg.replace("Affiliate+", "Rose")
            if "Lebyy_Dev" in textmsg:
-               textmsg = textmsg.replace("Lebyy_Dev", "Supun Maduranga")
+               textmsg = textmsg.replace("Lebyy_Dev", "LazyDeveloper")
            if "God Brando" in textmsg:
                textmsg = textmsg.replace("God Brando", f"{message.from_user.first_name}")
            if "seeker" in textmsg:
@@ -76,12 +76,12 @@ async def szcbot(_, message: Message):
            lang = tr.translate(message.text).src
            trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
            text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
-           safeone = requests.get(f"https://api.safone.tech/chatbot?message={text}&bot_name=Rose&bot_master=Supun&user_id={user_id}")
+           safeone = requests.get(f"https://api.safone.tech/chatbot?message={text}&bot_name=Rose&bot_master=LazyDeveloperr&user_id={user_id}")
            textmsg = (safeone.json()["answer"])
            if "Affiliate+" in textmsg:
                textmsg = textmsg.replace("Affiliate+", "Rose")
            if "[Safone]" in textmsg:
-               textmsg = textmsg.replace("[Safone]", "Supun Maduranga")
+               textmsg = textmsg.replace("[Safone]", "LazyDeveloper Maduranga")
            msg = tr.translate(textmsg, src='en', dest=lang)
            await message.reply_text(msg.text)
 

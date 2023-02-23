@@ -1,7 +1,7 @@
 #====================================================================================================
 # Copyright (c) 2021 Itz-fork
 # Part of: Nexa-Userbot
-# re-write for @szrosebot by szsupunma
+# re-write for @MissLazyRose_bot by lazyDeveloperr
 #====================================================================================================
 
 from pyrogram import filters

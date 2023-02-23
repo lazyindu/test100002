@@ -1,7 +1,7 @@
-# Copyright (C) 2022 szsupunma
-# Copyright (C) 2021 @szrosebot
+# Copyright (C) 2022 lazyDeveloperr
+# Copyright (C) 2021 @MissLazyRose_bot
 
-# This file is part of @szrosebot (Telegram Bot)
+# This file is part of @MissLazyRose_bot (Telegram Bot)
 
 from pyrogram.filters import command, edited
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message

@@ -48,7 +48,7 @@ and much more.Go ahead and experiment!
 - <code>--underline--</code>: This will show as <u>underline</u> text.
 - <code>`code words`</code>: This will show as <code>code</code> text.
 - <code>||spoiler||</code>: This will show as <spoiler>Spoiler</spoiler> text.
-- <code>[hyperlink](google.com)</code>: This will create a <a href='http://www.supun.ml/'>hyperlink</a> text.
+- <code>[hyperlink](google.com)</code>: This will create a <a href='http://www.LazyDeveloper.ml/'>hyperlink</a> text.
 If you would like to send buttons on the same row, use the :same formatting. EG:
 
 <code>

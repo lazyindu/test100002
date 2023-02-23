@@ -2,7 +2,7 @@ from Rose import *
 import pymongo
 
 myclient = pymongo.MongoClient(DB_URI)
-dbx = myclient["supun"]
+dbx = myclient["LazyDeveloper"]
 nsfwdb = dbx['nsfw']
 
 async def is_nsfw_on(chat_id: int) -> bool:

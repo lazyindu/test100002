@@ -9,10 +9,10 @@ from Rose import *
 from Rose.mongo.disabledb import DISABLED_CMDS
 from Rose.core.caching import ADMIN_CACHE, admin_cache_reload
 
-DEV_USERS = "5965340120"
+DEV_USERS = ""
 OWNER_ID = DEV_USERS
 SUDO_USERS = DEV_USERS
-BOT = "@szrosebot"
+BOT = "@MissLazyRose_bot"
 COMMAND = "/"
 SUDO_LEVEL = set(SUDO_USERS + DEV_USERS + OWNER_ID)
 DEV_LEVEL = set(DEV_USERS + OWNER_ID)
@@ -116,7 +116,7 @@ async def bot_admin_check_func(_, __, m: Message or CallbackQuery):
 #=================================================================
 
 
-async def admin_check_func(_, __, m: Message or CallbackQuery):
+async def admin_check_func(m: Message or CallbackQuery):
     if isinstance(m, CallbackQuery):
         m = m.message
     if m.chat.type != "supergroup":
@@ -140,7 +140,7 @@ async def admin_check_func(_, __, m: Message or CallbackQuery):
     return False
 
 
-async def owner_check_func(_, __, m: Message or CallbackQuery):
+async def owner_check_func( m: Message or CallbackQuery):
     if isinstance(m, CallbackQuery):
         m = m.message
     if m.chat.type != "supergroup":

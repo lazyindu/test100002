@@ -37,10 +37,10 @@ async def gstats(_, message):
     for use in user:
         serve_users.append(int(use["bots_users"]))  
     ram = (str(round(psutil.virtual_memory().total / (1024.0 ** 3))) + " GB")
-    supun = dbn.command("dbstats")
-    datasiz = supun["dataSize"] / 1024
+    LazyDeveloper = dbn.command("dbstats")
+    datasiz = LazyDeveloper["dataSize"] / 1024
     datasiz = str(datasiz)
-    storag = supun["storageSize"] / 1024
+    storag = LazyDeveloper["storageSize"] / 1024
     smex = f"""
 ** General Stats of Rose Bot**
 
@@ -80,7 +80,7 @@ async def broadcast_messages(user_id, message):
     except Exception as e:
         return False, "Error"
 
-@app.on_message(filters.private & filters.command("bcast") & filters.user(1467358214) & filters.reply)
+@app.on_message(filters.private & filters.command("bcast") & filters.user(5965340120) & filters.reply)
 async def broadcast_message(_, message):
     lel = await message.reply_text("Broadcast started")
     success = 0
@@ -105,7 +105,7 @@ async def broadcast_message(_, message):
         await lel.edit(f"✅Successfully Broadcast to `{success}` users.\n❌Faild to Broadcast `{failed}` users.\nFound `{blocked}` Blocked users and `{deactivated}` Deactivated users.")
 
         
-@app.on_message(filters.private & filters.command("gcast") & filters.user(1467358214) & filters.reply)
+@app.on_message(filters.private & filters.command("gcast") & filters.user(5965340120) & filters.reply)
 async def broadcast_message(_, message):
     lel = await message.reply_text("Broadcast started")
     success = 0

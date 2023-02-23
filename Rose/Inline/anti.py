@@ -4,7 +4,7 @@ from pyrogram import filters
 
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
-supunm = """
+LazyDeveloperm = """
 
 Delete messages containing characters from one of the following automatically
 - Arabic Language
@@ -30,7 +30,7 @@ Delete messages containing characters from one of the following automatically
 async def commands_callbacc(_, CallbackQuery):
 
     await CallbackQuery.message.edit(
-        text=supunm,
+        text=LazyDeveloperm,
         reply_markup=close,
         disable_web_page_preview=True,
     )
@@ -38,7 +38,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 
 
-supunmascv = """
+LazyDeveloperrscv = """
 I Can Remove Service Message In Groups 
 Like Users Join Messages, Leave Messages, Pinned Allert Messages, 
 Voice Chat Invite Members Allerts ETC..
@@ -50,7 +50,7 @@ async def commands_callbacc(_, CallbackQuery):
 
     await CallbackQuery.message.edit(
         CallbackQuery.message.chat.id,
-        text=supunmascv,
+        text=LazyDeveloperrscv,
         reply_markup=close,
         disable_web_page_preview=True,
     )
@@ -100,7 +100,7 @@ asuttons = InlineKeyboardMarkup(
 )
 
 
-supunmascvs = """
+LazyDeveloperrscvs = """
 Here is the help for Anti-Function :
 
 **Anti-Function**:
@@ -112,6 +112,6 @@ Anti-Function is the inbuilt toolkit in Rose for avoid spammers, and to improve 
 @app.on_callback_query(filters.regex("_bvk"))
 async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.edit(
-        text=supunmascvs,
+        text=LazyDeveloperrscvs,
         reply_markup=asuttons,
         disable_web_page_preview=True)

@@ -18,7 +18,7 @@ from Rose.core.decorators.permissions import current_chat_permissions,member_per
 
 #====== Mongo database =========
 client = pymongo.MongoClient(MONGO_DB_URI)
-dbd = client["szrosebot"]
+dbd = client["MissLazyRose_bot"]
 db = dbd
 lockdb = db.lockdb1
 #================================
@@ -184,9 +184,9 @@ async def list_locks_dfunc(_, message):
     try:
         await app.send_message(chat_id = user_id,text = text)
     except Exception as e:
-        supun = await app.send_message( chat_id = message.chat.id,text = f"Hey {message.from_user.mention} please start me pm now.")
+        LazyDeveloper = await app.send_message( chat_id = message.chat.id,text = f"Hey {message.from_user.mention} please start me pm now.")
         await asyncio.sleep(5)
-        await supun.delete()
+        await LazyDeveloper.delete()
         await app.send_message(chat_id = LOG_GROUP_ID,text=e)
         print(e)    
 
