@@ -5,13 +5,13 @@
 <h4 align="center">Rose bot  simplifies the management, administration and security of your group</h4>
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/github/issues/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/szsupunma/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Stars">
-    <img href="https://crowdin.com/project/szrosebot" src="https://badges.crowdin.net/szrosebot/localized.svg" alt="crowndin"> 
+    <img src="https://img.shields.io/github/license/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/issues/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/lazyDeveloperr/sz-rosebot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img href="https://crowdin.com/project/MissLazyRose_bot" src="https://badges.crowdin.net/MissLazyRose_bot/localized.svg" alt="crowndin"> 
 </p>
 
 ## What is Rose for ?
@@ -54,31 +54,31 @@ Maybe not enough to make them admin, but you might be ok with locks, blocklists,
 That's what approvals are for - approve of trustworthy users to allow them to send 
 
 # Start protecting your group now!
-Getting started protecting and managing your group better with Rose Bot is very simple: [Click Here](http://t.me/szrosebot?startgroup=new) to add the bot to the group, then set it as administrator and send the command /help to manage the bot at 360° in all its functions and automations.
+Getting started protecting and managing your group better with Rose Bot is very simple: [Click Here](http://t.me/MissLazyRose_bot?startgroup=new) to add the bot to the group, then set it as administrator and send the command /help to manage the bot at 360° in all its functions and automations.
 
 ## Customize your Rose Bot - create a clone (Deploy Heroku)
 If you want to make your bot even more unique, you can create a customized rose bot clone with a name and profile photo of your choice.
 
 <img style="width:300px; height: 200px;" href="https://youtu.be/ZUvFSU8W7VA" src="https://telegra.ph/file/cf3a10a7f61f62983d2ca.png" alt="youtube"> 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rosebot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lazyDeveloperr/sz-rosebot)
 
 ## Contact & Support Chats
 
- - [support group ](https://t.me/slbotzone)
+ - [support group ](https://t.me/LazyDeveloperr)
  - [News Channel ](https://t.me/szroseupdates) 
- - [Documentation ](https://szsupunma.gitbook.io/rose-bot/)
+ - [Documentation ](https://lazyDeveloperr.gitbook.io/rose-bot/)
  - [Logs Channel ](https://t.me/szroselog)
- - [Network ](https://t.me/TeamSzRoseBot)
+ - [Network ](https://t.me/TeamMissLazyRose_bot)
 
 [![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)   
 Rose is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
 
 ## Special credits
 Special thanks to these amazing projects/people which/who help power Rose bot
-### [click Here](https://szsupunma.gitbook.io/rose-bot/getting-started/credits)
+### [click Here](https://lazyDeveloperr.gitbook.io/rose-bot/getting-started/credits)
 
 ## Contributions
 #### Contributions are welcome.
 
-![Contributors](https://contrib.rocks/image?repo=szsupunma/sz-rosebot)
+![Contributors](https://contrib.rocks/image?repo=lazyDeveloperr/sz-rosebot)

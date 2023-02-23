@@ -43,7 +43,7 @@ class var(object):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+have a look at my [Docs](https://lazyDeveloperr.gitbook.io/rose-bot/), or head to @lazydeveloper.
 
 **All commands can be used with the following: / **"""
         #Rose start menu conections(split commands on start)
@@ -90,15 +90,15 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
         about_buttons = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="👥Support Group", url="https://t.me/szrosesupport"),
-                                InlineKeyboardButton(text="👤News Channel", url="https://t.me/Theszrosebot")
+                                InlineKeyboardButton(text="🐱‍👤Support Group", url="https://t.me/LazyDeveloperSupport"),
+                                InlineKeyboardButton(text="💢Dev Channel", url="https://t.me/LazyDeveloper")
                         ], 
                         [ 
-                                InlineKeyboardButton(text="⚒ Source Code", url="https://github.com/szsupunma/sz-rosebot"),
-                                InlineKeyboardButton(text="📓 Documentation", url="https://szsupunma.gitbook.io/rose-bot")
+                                InlineKeyboardButton(text="⚒ Source Code", url="https://github.com/LazyDeveloperr/MissLazyRose"),
+                                InlineKeyboardButton(text="☣ Documentation", url="https://github.com/LazyDeveloperr/MissLazyRose")
                         ], 
                         [
-                                InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://youtu.be/ZUvFSU8W7VA")
+                                InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://youtube.com/@LazyDeveloperr")
                         ],
                         [
                                 InlineKeyboardButton("« Back", callback_data='startcq')
@@ -119,8 +119,8 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
                                 InlineKeyboardButton(text="Help Menu ⚒",callback_data="bot_commands")
                         ],
                         [
-                                InlineKeyboardButton(text="Website 💭",url=f"https://szrosebot.ml"),
-                                InlineKeyboardButton(text="News Channel 📢",url=f"https://t.me/szroseupdates")
+                                InlineKeyboardButton(text="Subscribe YT 💭",url=f"https://youtube.com/@LazyDeveloperr"),
+                                InlineKeyboardButton(text="Dev Channel 📢",url=f"https://t.me/szroseupdates")
                         ]
                 ]
 )

@@ -1,1 +1,1 @@
-web: python3 lazyBhai.py
+web: python3 -m Rose
